@@ -1,0 +1,29 @@
+:root {
+  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+ 
+}
+
+.Contenedor {
+  text-align: center;
+  padding: 100px;
+  background-color: lightblue; 
+  border-radius: 25px;
+  color: black; 
+  
+}
+.numero{
+  background-color: #424141;
+  width: 100px;
+text-align: center;
+  border-radius: 25px;
+  color: white;
+  font-size: 30px;
+  margin: auto;
+  padding: 10px;
+}
