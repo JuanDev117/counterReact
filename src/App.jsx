@@ -22,12 +22,12 @@ function Lista () {
 
   const reiniciar = () => {
     setContador(0);
-  };
+  }; 
   
 
   const asignar = () => {
-    setContador("esto es un nuevo elemento ");
-  }
+    setContador(100);
+  };
 
 
   return (
@@ -40,7 +40,6 @@ function Lista () {
         <button onClick={reiniciar}>Reiniciar</button>
       </div>
       <div className="Asignar">
-      
         <button onClick={asignar}>Asignar</button>
       </div>  
     </div>  
